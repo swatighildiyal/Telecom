@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="78076" started-at="2020-04-06T17:39:10Z" finished-at="2020-04-06T17:40:28Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="78076" started-at="2020-04-06T17:39:10Z" finished-at="2020-04-06T17:40:28Z">
+      <class name="pkg.TestCases.AddTariffPlnTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:pkg.TestCases.AddTariffPlnTest@7c7811]" name="setUp" is-config="true" duration-ms="34551" started-at="2020-04-06T17:39:11Z" finished-at="2020-04-06T17:39:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addTariff(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:pkg.TestCases.AddTariffPlnTest@7c7811]" name="addTariff" duration-ms="4056" started-at="2020-04-06T17:39:46Z" data-provider="getData" finished-at="2020-04-06T17:39:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[60]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[30]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[430]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTariff -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:pkg.TestCases.AddTariffPlnTest@7c7811]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-04-06T17:39:50Z" finished-at="2020-04-06T17:39:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:pkg.TestCases.AddTariffPlnTest@7c7811]" name="setUp" is-config="true" duration-ms="32306" started-at="2020-04-06T17:39:50Z" finished-at="2020-04-06T17:40:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addTariff(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:pkg.TestCases.AddTariffPlnTest@7c7811]" name="addTariff" duration-ms="5074" started-at="2020-04-06T17:40:22Z" data-provider="getData" finished-at="2020-04-06T17:40:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[22]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[40]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[540]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTariff -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:pkg.TestCases.AddTariffPlnTest@7c7811]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-04-06T17:40:27Z" finished-at="2020-04-06T17:40:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- pkg.TestCases.AddTariffPlnTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
