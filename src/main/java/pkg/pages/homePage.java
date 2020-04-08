@@ -27,14 +27,14 @@ public class homePage extends TestBase {
 	
 	public void addCustomer()
 	{
-		System.out.println(firstLink.getText());		
+				
 		firstLink.click();
 		
 	}
 	
 	public void addTariffPlan()
 	{
-		System.out.println(thirdLink.getText());	
+			
 		thirdLink.click();
 		
 	}

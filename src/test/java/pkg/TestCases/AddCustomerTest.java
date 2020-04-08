@@ -14,7 +14,6 @@ import pkg.resources.ExcelReader;
 public class AddCustomerTest extends TestBase {
 	
 	
-	
 	homePage hp;
 	addCustomerPage adCustomer;
 	String sheet="Sheet1";
@@ -46,14 +45,15 @@ public class AddCustomerTest extends TestBase {
 		
 		adCustomer=new addCustomerPage();		
 		adCustomer.addCust(first, last, email, addres, mob);
-		
-	}
+		adCustomer.navigateHome();
+		}
+	
 
 	@AfterMethod
 	public void tearDown()
 	{
-		System.out.println("Driver needs to be closed");
 		driver.close();
+		
 		}
 	
 	

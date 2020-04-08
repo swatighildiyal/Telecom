@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="pkg.TestCases.AddTariffPlnTest">
+      <class name="pkg.TestCases.AddCustomerTest">
         <methods>
-          <include name="addTariff" invocation-numbers="1"/>
           <include name="setUp"/>
+          <include name="addNewCustomer" invocation-numbers="0 1"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- pkg.TestCases.AddTariffPlnTest -->
+      </class> <!-- pkg.TestCases.AddCustomerTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
